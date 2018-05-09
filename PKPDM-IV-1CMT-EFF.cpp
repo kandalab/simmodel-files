@@ -1,8 +1,8 @@
 $PROB IV ONE COMP PKPD EFFECT COMPARTMENT MODEL
 
 $PARAM @annotated
-CL 		: 5   : Clearance (L/hr)
-V1 		: 25  : Central Volume (L)
+CL 		: 5   : Clearance (ml/hr)
+V1 		: 25  : Central Volume (ml)
 
 
 $OMEGA @annotated @block
