@@ -31,6 +31,6 @@ double CENTRAL = CENT/V1i
 
 
 $CAPTURE @annotated
-CENTRAL    : Plasma Concentration (mass/time)
+CENTRAL    : Plasma Concentration (mass/time UM)
 
   
