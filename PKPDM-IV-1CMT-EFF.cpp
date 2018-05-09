@@ -16,11 +16,6 @@ ETA_EC50    : 0 0 0 0 0 0.01 : ETA on EC50
 ETA_EMAX    : 0 0 0 0 0 0 0.01 : ETA on EMAX
 ETA_KEO		: 0 0 0 0 0 0 0 0.01 : ETA on KEO  
 
-$SIGMA @annotated @block   
-PK_ADD  : 0 : PK Additive Error 
-PK_PROP : 0 0.1 : PK Proportional Error 
-PD_ADD  : 0 0 0 : PD Additive Error 
-PD_PROP : 0 0 0 0.01 : PD Proportional Error    
 
 $CMT @annotated
 CENT    : Central (mass)
