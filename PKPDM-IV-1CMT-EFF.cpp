@@ -35,10 +35,6 @@ double EMAXi = EMAX * exp(ETA_EMAX);
 double KEOi = KEO * exp(ETA_KEO);
 
 
-double EPS_PK_ADD = PK_ADD;
-double EPS_PK_PROP = PK_PROP;
-double EPS_PD_ADD = PD_ADD;
-double EPS_PD_PROP = PD_PROP;
 
 
 $ODE
@@ -46,8 +42,8 @@ dxdt_CENT = - (CLi/V1i)*CENT;
 dxdt_EFF = KEOi * (CENT - EFF);
 
 $TABLE
-double CENTRAL = CENT/V1i * (1 + EPS_PK_PROP) + EPS_PK_ADD;
-double EFFECT = (E0i - (EMAXi*EFF)/(EFF+EC50i)) * (1 + EPS_PD_PROP) + EPS_PD_ADD;
+double CENTRAL = CENT/V1i 
+double EFFECT = (E0i - (EMAXi*EFF)/(EFF+EC50i)) 
 
 $CAPTURE @annotated
 CENTRAL    : Plasma Concentration (mass/time)
